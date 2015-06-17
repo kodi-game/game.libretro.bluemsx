@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.bluemsx"
 		name="MSX (BlueMSX)"
-		version="1.6.0"
+		version="2.9.2"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
-		<import addon="game.controller.nes" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_android="game.libretro.bluemsx.so"
+                   library_android="libgame.libretro.bluemsx.so"
                    library_linux="game.libretro.bluemsx.so"
                    library_osx="game.libretro.bluemsx.dylib"
                    library_windx="game.libretro.bluemsx.dll"
                    library_wingl="game.libretro.bluemsx.dll">
 		<platforms>msx</platforms>
-		<extensions>msx</extensions>
-		<supports_vfs>true</supports_vfs>
+		<extensions>rom|ri|mx1|mx2|col|sg|sc</extensions>
+		<supports_vfs>false</supports_vfs>
 		<supports_no_game>false</supports_no_game>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">BlueMSX v1.6.0</summary>
-		<description>Source: https://github.com/libretro/blueMSX-libretro</description>
+		<summary lang="en">BlueMSX v2.9.2</summary>
+		<description>BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.
+
+Supported extensions: .rom, .ri, .mx1, .mx2, .col, .sg, .sc
+
+Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero
+
+License: GPL v2</description>
 		<platform>all</platform>
+		<nofanart>true</nofanart>
 	</extension>
 </addon>
