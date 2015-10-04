@@ -44,4 +44,4 @@ install(FILES ${PROJECT_BINARY_DIR}/bluemsx/src/bluemsx/bluemsx_libretro${CMAKE_
         DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
 
 # write the config.cmake script
-file(WRITE ${CMAKE_INSTALL_PREFIX}/libretro-bluemsx-config.cmake "set(BLUEMSX_LIB ${CMAKE_INSTALL_PREFIX}/lib/bsnes_mercury_accuracy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
+file(WRITE ${CMAKE_INSTALL_PREFIX}/libretro-bluemsx-config.cmake "set(BLUEMSX_LIB ${CMAKE_INSTALL_PREFIX}/lib/bluemsx_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
