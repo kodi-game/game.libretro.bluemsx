@@ -1,1 +1,1 @@
-bluemsx https://github.com/libretro/blueMSX-libretro master
+bluemsx https://github.com/kodi-game/blueMSX-libretro fix-crash
