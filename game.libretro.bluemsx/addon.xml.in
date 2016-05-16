@@ -7,11 +7,7 @@
 		<import addon="game.libretro" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_android="libgame.libretro.bluemsx.so"
-                   library_linux="game.libretro.bluemsx.so"
-                   library_osx="game.libretro.bluemsx.dylib"
-                   library_windx="game.libretro.bluemsx.dll"
-                   library_wingl="game.libretro.bluemsx.dll">
+                   library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>msx</platforms>
 		<extensions>rom|ri|mx1|mx2|col|sg|sc</extensions>
 		<supports_vfs>false</supports_vfs>
@@ -26,7 +22,7 @@ Supported extensions: .rom, .ri, .mx1, .mx2, .col, .sg, .sc
 Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero
 
 License: GPL v2</description>
-		<platform>all</platform>
+		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
 </addon>
