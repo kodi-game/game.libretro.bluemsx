@@ -11,7 +11,8 @@
 		<platforms>msx</platforms>
 		<extensions>rom|ri|mx1|mx2|col|sg|sc</extensions>
 		<supports_vfs>false</supports_vfs>
-		<supports_no_game>false</supports_no_game>
+		<supports_standalone>false</supports_standalone>
+		<supports_keyboard>false</supports_keyboard>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">BlueMSX v2.9.2</summary>
@@ -19,9 +20,8 @@
 
 Supported extensions: .rom, .ri, .mx1, .mx2, .col, .sg, .sc
 
-Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero
-
-License: GPL v2</description>
+Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero</description>
+		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
