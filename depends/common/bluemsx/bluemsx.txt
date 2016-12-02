@@ -1,1 +1,1 @@
-bluemsx https://github.com/kodi-game/blueMSX-libretro resources
+bluemsx https://github.com/libretro/blueMSX-libretro master
