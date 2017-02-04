@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
 	<category label="30000">
-		<setting label="30001" type="select" id="bluemsx_msxtype" values="MSX2+|MSXturboR|MSX" default="MSX2+"/>
+		<setting label="30001" type="select" id="bluemsx_msxtype" values="MSX2+|MSX2|MSXturboR|MSX" default="MSX2+"/>
 		<setting label="30002" type="select" id="bluemsx_vdp_synctype" values="Auto|50Hz|60Hz" default="Auto"/>
 		<setting label="30003" type="select" id="bluemsx_ym2413_enable" values="enabled|disabled" default="enabled"/>
 	</category>
