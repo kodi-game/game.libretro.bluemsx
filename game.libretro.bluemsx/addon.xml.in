@@ -9,7 +9,7 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>msx</platforms>
-		<extensions>rom|ri|mx1|mx2|dsk|col|sg|sc|cas</extensions>
+		<extensions>rom|ri|mx1|mx2|dsk|col|sg|sc|cas|m3u</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_keyboard>false</supports_keyboard>
@@ -23,7 +23,7 @@ Supported extensions: .rom, .ri, .mx1, .mx2, .col, .sg, .sc
 
 Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero
 
-Supported files: .rom, .ri, .mx1, .mx2, .dsk, .col, .sg, .sc, .cas</description>
+Supported files: .rom, .ri, .mx1, .mx2, .dsk, .col, .sg, .sc, .cas, .m3u</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
