@@ -100,7 +100,7 @@
     <feature name="comma" mapto="RETROK_COMMA"/>
     <feature name="period" mapto="RETROK_PERIOD"/>
     <feature name="divide" mapto="RETROK_SLASH"/>
-    <feature name="rightshift" mapto="RETROK_0"/>
+    <feature name="rightshift" mapto="RETROK_RSHIFT"/>
     <feature name="backtick" mapto=""/>
     <!-- Row 5 -->
     <feature name="capslock" mapto="RETROK_CAPSLOCK"/>
