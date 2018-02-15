@@ -4,6 +4,11 @@
     <accepts controller="game.controller.msx.keyboard"/>
   </port>
   <port type="controller" id="1">
+    <accepts controller="game.controller.colecovision"/>
+    <accepts controller="game.controller.msx.joystick"/>
+  </port>
+  <port type="controller" id="2">
+    <accepts controller="game.controller.colecovision"/>
     <accepts controller="game.controller.msx.joystick"/>
   </port>
 </logicaltopology>

@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buttonmap version="2">
-  <controller id="game.controller.msx.joystick" type="RETRO_DEVICE_ANALOG" subclass="1">
-    <feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
-    <feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+  <controller id="game.controller.msx.joystick" type="RETRO_DEVICE_JOYPAD">
+    <feature name="button1" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+    <feature name="button2" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
     <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
     <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
     <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
     <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+  </controller>
+  <controller id="game.controller.colecovision" type="RETRO_DEVICE_JOYPAD">
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+    <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+    <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+    <feature name="keypad1" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+    <feature name="keypad2" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+    <feature name="keypad3" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+    <feature name="keypad4" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+    <feature name="keypad5" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+    <feature name="keypad6" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+    <feature name="keypad7" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+    <feature name="keypad8" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+    <!-- Player 1: RETROK_2 -->
+    <!-- Player 2: RETROK_4 -->
+    <feature name="keypad9" mapto=""/>
+    <!-- Player 1: RETROK_1 -->
+    <!-- Player 2: RETROK_3 -->
+    <feature name="keypad0" mapto=""/>
+    <feature name="star" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+    <feature name="pound" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
   </controller>
   <controller id="game.controller.msx.keyboard" type="RETRO_DEVICE_KEYBOARD">
     <!-- Row 0 -->
