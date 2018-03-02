@@ -16,8 +16,8 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">MSX/SVI/ColecoVision/SG-1000 (blueMSX) git</summary>
-		<description>BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.
+		<summary lang="en_GB">MSX/SVI/ColecoVision/SG-1000 (blueMSX) git</summary>
+		<description lang="en_GB">BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.
 
 Supported extensions: .rom, .ri, .mx1, .mx2, .col, .sg, .sc
 
