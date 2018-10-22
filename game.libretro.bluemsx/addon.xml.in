@@ -26,6 +26,7 @@ Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bit
 Supported files: .rom, .ri, .mx1, .mx2, .dsk, .col, .sg, .sc, .cas, .m3u</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.bluemsx</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
