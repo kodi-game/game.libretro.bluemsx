@@ -47,4 +47,3 @@ msgstr ""
 msgctxt "#30007"
 msgid "Sound YM2413 Enable (Restart)"
 msgstr ""
-
