@@ -1,1 +1,1 @@
-bluemsx https://github.com/libretro/blueMSX-libretro/archive/65a9f35867f70d211ea7873b24727088378b9cc2.zip
+bluemsx https://github.com/libretro/blueMSX-libretro/archive/ddd89ff1fa534816e48521bd930b721f2d39975a.zip
