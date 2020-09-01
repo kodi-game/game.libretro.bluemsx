@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.bluemsx"
 		name="MSX/SVI/ColecoVision/SG-1000 (blueMSX)"
-		version="0.0.1.10"
-		provider-name="Libretro">
+		version="0.0.1.11"
+		provider-name="Daniel Vik">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 		<import addon="game.controller.msx.keyboard" version="1.0.0"/>
