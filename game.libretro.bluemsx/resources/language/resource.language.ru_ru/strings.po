@@ -22,15 +22,15 @@ msgid "Settings"
 msgstr "Настройки"
 
 msgctxt "#30001"
-msgid "Auto Rewind Cassette"
+msgid "Machine Type (Restart)"
 msgstr ""
 
 msgctxt "#30002"
-msgid "Cart Mapper Type (Restart)"
+msgid "Crop Overscan"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Machine Type (Restart)"
+msgid "VDP Sync Type (Restart)"
 msgstr ""
 
 msgctxt "#30004"
@@ -38,13 +38,13 @@ msgid "No Sprite Limit"
 msgstr ""
 
 msgctxt "#30005"
-msgid "Crop Overscan"
+msgid "Sound YM2413 Enable (Restart)"
 msgstr ""
 
 msgctxt "#30006"
-msgid "VDP Sync Type (Restart)"
+msgid "Cart Mapper Type (Restart)"
 msgstr ""
 
 msgctxt "#30007"
-msgid "Sound YM2413 Enable (Restart)"
+msgid "Auto Rewind Cassette"
 msgstr ""
