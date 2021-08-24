@@ -16,6 +16,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
 
+msgctxt "Addon Summary"
+msgid "MSX/SVI/ColecoVision/SG-1000 (blueMSX) git"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.
+
+Supported extensions: .rom, .ri, .mx1, .mx2, .col, .sg, .sc
+
+Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero
+
+Supported files: .rom, .ri, .mx1, .mx2, .dsk, .col, .sg, .sc, .cas, .m3u"
+msgstr ""
+
 msgctxt "#30000"
 msgid "Settings"
 msgstr ""
