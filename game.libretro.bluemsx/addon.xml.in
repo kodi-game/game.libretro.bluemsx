@@ -16,12 +16,6 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-
-Supported extensions: .rom, .ri, .mx1, .mx2, .col, .sg, .sc
-
-Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero
-
-Supported files: .rom, .ri, .mx1, .mx2, .dsk, .col, .sg, .sc, .cas, .m3u</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.bluemsx</source>
@@ -29,12 +23,6 @@ Supported files: .rom, .ri, .mx1, .mx2, .dsk, .col, .sg, .sc, .cas, .m3u</descri
 			<icon>resources/icon.png</icon>
 		</assets>
 		<summary lang="en_GB">MSX/SVI/ColecoVision/SG-1000 (blueMSX) git</summary>
-		<description lang="en_GB">BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.
-
-Supported extensions: .rom, .ri, .mx1, .mx2, .col, .sg, .sc
-
-Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero
-
-Supported files: .rom, .ri, .mx1, .mx2, .dsk, .col, .sg, .sc, .cas, .m3u</description>
+		<description lang="en_GB">BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.[CR]Supported extensions: .rom, .ri, .mx1, .mx2, .col, .sg, .sc[CR][CR]Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero[CR][CR]Supported files: .rom, .ri, .mx1, .mx2, .dsk, .col, .sg, .sc, .cas, .m3u</description>
 	</extension>
 </addon>
