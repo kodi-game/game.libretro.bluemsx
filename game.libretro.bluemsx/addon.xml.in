@@ -22,8 +22,8 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<summary lang="en_GB">MSX/SVI/ColecoVision/SG-1000 (blueMSX) git</summary>
-		<description lang="en_GB">BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.</description>
 		<disclaimer>Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero</disclaimer>
+		<summary lang="en_GB">MSX/SVI/ColecoVision/SG-1000 (blueMSX) git</summary>
+		<description lang="en_GB">BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.[CR][CR]Supported extensions: .rom, .ri, .mx1, .mx2, .col, .sg, .sc[CR][CR]Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero[CR][CR]Supported files: .rom, .ri, .mx1, .mx2, .dsk, .col, .sg, .sc, .cas, .m3u</description>
 	</extension>
 </addon>
