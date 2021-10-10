@@ -23,8 +23,8 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<disclaimer>Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero</disclaimer>
 		<summary lang="en_GB">MSX/SVI/ColecoVision/SG-1000 (blueMSX) git</summary>
 		<description lang="en_GB">BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.</description>
+		<disclaimer lang="en_GB">Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero</disclaimer>
 	</extension>
 </addon>
