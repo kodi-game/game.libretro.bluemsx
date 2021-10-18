@@ -1,6 +1,20 @@
-# game.libretro.bluemsx addon for Kodi
-
-This is a [Kodi](http://kodi.tv) game addon for MSX/SVI/ColecoVision/SG-1000 (blueMSX).
-
 [![Build Status](https://travis-ci.org/kodi-game/game.libretro.bluemsx.svg?branch=master)](https://travis-ci.org/kodi-game/game.libretro.bluemsx)
 [![Build Status](https://ci.appveyor.com/api/projects/status/github/kodi-game/game.libretro.bluemsx?svg=true)](https://ci.appveyor.com/project/kodi-game/game-libretro-bluemsx)
+
+# MSX/SVI/ColecoVision/SG-1000 (blueMSX)
+
+### Description
+BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.
+
+### License
+GPLv2
+
+### Icon
+
+![Icon](game.libretro.bluemsx/resources/icon.png)
+
+
+### Disclaimer
+
+*Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero*
+
