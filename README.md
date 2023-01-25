@@ -13,7 +13,7 @@ GPLv2
 
 ### Icon
 
-![Icon](game.libretro.bluemsx/resources/icon.png)
+![MSX/SVI/ColecoVision/SG-1000 (blueMSX) icon](game.libretro.bluemsx/resources/icon.png)
 
 ### Fanart
 
