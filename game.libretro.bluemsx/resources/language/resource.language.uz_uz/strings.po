@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgctxt "Addon Summary"
-msgid "MSX/SVI/ColecoVision/SG-1000 (blueMSX) git"
+msgid "MSX/SVI/ColecoVision/SG-1000 (blueMSX)"
 msgstr ""
 
 msgctxt "Addon Description"
