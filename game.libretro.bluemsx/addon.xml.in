@@ -23,6 +23,7 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
+		<summary lang="da_DK">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
 		<summary lang="en_GB">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
 		<summary lang="es_ES">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
 		<description lang="da_DK">BlueMSX er en rig MSX-emulator. Den understøtter de fleste almindelige maskiner og en lang række udvidelseshardware.</description>
