@@ -29,10 +29,6 @@ msgctxt "Addon Disclaimer"
 msgid "Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero"
 msgstr "Autoren: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt und Ray Zero"
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Einstellungen"
-
 msgctxt "#30001"
 msgid "Machine Type (Restart)"
 msgstr "Systemtyp (Neustart erforderlich)"
@@ -60,3 +56,23 @@ msgstr ""
 msgctxt "#30007"
 msgid "Auto Rewind Cassette"
 msgstr "Kassette automatisch zurückspulen"
+
+msgctxt "#30008"
+msgid "I/O Sound Enable"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Colecovision Keyboard Mapping"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Patch Colecovision ROM Fast Boot (Close Content)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Use F12 to hard reset and restart emulation"
+msgstr ""
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Einstellungen"
