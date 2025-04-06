@@ -27,6 +27,7 @@
 		<summary lang="en_GB">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
 		<summary lang="es_ES">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
 		<summary lang="it_IT">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
+		<summary lang="sv_SE">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
 		<summary lang="zh_CN">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
 		<description lang="da_DK">BlueMSX er en rig MSX-emulator. Den understøtter de fleste almindelige maskiner og en lang række udvidelseshardware.</description>
 		<description lang="de_DE">BlueMSX ist ein vielseitiger MSX-Emulator. Er unterstützt die meisten gängigen Systeme und eine große Auswahl an Erweiterungshardware.</description>
@@ -34,6 +35,7 @@
 		<description lang="es_ES">BlueMSX es un rico emulador de MSX. Es compatible con las máquinas más comunes y una amplia variedad de hardware de ampliación.</description>
 		<description lang="it_IT">BlueMSX è un ricco emulatore MSX. Supporta le macchine più comuni e un&apos;ampia varietà di estensioni hardware.</description>
 		<description lang="sl_SI">BlueMSX je bogat MSX emulator. Podpira večino običajnih strojev in široko paleto razširitvene strojne opreme.</description>
+		<description lang="sv_SE">BlueMSX är en funktionsrik MSX-emulator. Den stöder de flesta vanliga maskiner och ett brett utbud av tilläggshårdvara.</description>
 		<description lang="zh_CN">BlueMSX 是一个富 MSX 模拟器。它支持最常见的机型和各种扩展硬件。</description>
 		<disclaimer lang="da_DK">Udviklere: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt og Ray Zero</disclaimer>
 		<disclaimer lang="de_DE">Autoren: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt und Ray Zero</disclaimer>
@@ -41,6 +43,7 @@
 		<disclaimer lang="es_ES">Autores: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt y Ray Zero</disclaimer>
 		<disclaimer lang="it_IT">Autori: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt e Ray Zero</disclaimer>
 		<disclaimer lang="sl_SI">Avtorji: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt in Ray Zero</disclaimer>
+		<disclaimer lang="sv_SE">Upphovspersoner: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt och Ray Zero</disclaimer>
 		<disclaimer lang="zh_CN">作者：Daniel Vik、Benoit Delvaux、Tomas Karlsson、Johan van Leur、Ricardo Bittencourt 和 Ray Zero</disclaimer>
 	</extension>
 </addon>
