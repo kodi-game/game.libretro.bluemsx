@@ -73,6 +73,10 @@ msgctxt "#30011"
 msgid "Use F12 to hard reset and restart emulation"
 msgstr ""
 
+msgctxt "#30012"
+msgid "Additional MSX Sound Cartridge (Restart)"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Nastavitve"
