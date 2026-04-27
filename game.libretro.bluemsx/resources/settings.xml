@@ -10,6 +10,7 @@
 		<setting label="30012" type="select" id="bluemsx_additional_cart" values="disabled|scc|sccexpanded|sccmirrored|sccplus|snatcher|sdsnatcher" default="disabled"/>
 		<setting label="30007" type="select" id="bluemsx_auto_rewind_cas" values="ON|OFF" default="ON"/>
 		<setting label="30008" type="select" id="bluemsx_sound_io_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30013" type="select" id="bluemsx_sunriseide_enable" values="disabled|enabled" default="disabled"/>
 		<setting label="30009" type="select" id="use_keyboard_for_coleco" values="disabled|enabled" default="disabled"/>
 		<setting label="30010" type="select" id="patch_coleco_rom" values="disabled|enabled" default="disabled"/>
 		<setting label="30011" type="select" id="hard_reset_f12" values="disabled|enabled" default="disabled"/>

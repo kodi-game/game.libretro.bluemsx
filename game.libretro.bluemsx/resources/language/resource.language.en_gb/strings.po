@@ -77,3 +77,7 @@ msgstr ""
 msgctxt "#30012"
 msgid "Additional MSX Sound Cartridge (Restart)"
 msgstr ""
+
+msgctxt "#30013"
+msgid "SunriseIDE Enable (Restart)"
+msgstr ""
