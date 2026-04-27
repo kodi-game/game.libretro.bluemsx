@@ -77,6 +77,10 @@ msgctxt "#30012"
 msgid "Additional MSX Sound Cartridge (Restart)"
 msgstr "附加 MSX 音效扩展卡（重启）"
 
+msgctxt "#30013"
+msgid "SunriseIDE Enable (Restart)"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "设置"
