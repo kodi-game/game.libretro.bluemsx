@@ -24,6 +24,7 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
+		<summary lang="cs_CZ">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
 		<summary lang="da_DK">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
 		<summary lang="en_GB">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
 		<summary lang="es_ES">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
@@ -32,6 +33,7 @@
 		<summary lang="ru_RU">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
 		<summary lang="sv_SE">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
 		<summary lang="zh_CN">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
+		<description lang="cs_CZ">blueMSX je bohatě vybavený emulátor MSX. Podporuje většinu běžných strojů a širokou škálu rozšiřujícího hardwaru.</description>
 		<description lang="da_DK">BlueMSX er en rig MSX-emulator. Den understøtter de fleste almindelige maskiner og en lang række udvidelseshardware.</description>
 		<description lang="de_DE">BlueMSX ist ein vielseitiger MSX-Emulator. Er unterstützt die meisten gängigen Systeme und eine große Auswahl an Erweiterungshardware.</description>
 		<description lang="en_GB">BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.</description>
@@ -42,6 +44,7 @@
 		<description lang="sl_SI">BlueMSX je bogat MSX emulator. Podpira večino običajnih strojev in široko paleto razširitvene strojne opreme.</description>
 		<description lang="sv_SE">BlueMSX är en funktionsrik MSX-emulator. Den stöder de flesta vanliga maskiner och ett brett utbud av tilläggshårdvara.</description>
 		<description lang="zh_CN">BlueMSX 是一个富 MSX 模拟器。它支持最常见的机型和各种扩展硬件。</description>
+		<disclaimer lang="cs_CZ">Autoři: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt a Ray Zero</disclaimer>
 		<disclaimer lang="da_DK">Udviklere: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt og Ray Zero</disclaimer>
 		<disclaimer lang="de_DE">Autoren: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt und Ray Zero</disclaimer>
 		<disclaimer lang="en_GB">Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero</disclaimer>
