@@ -80,3 +80,7 @@ msgstr "Dodatečná zvuková cartridge MSX (vyžaduje restart)"
 msgctxt "#30013"
 msgid "SunriseIDE Enable (Restart)"
 msgstr "Povolit SunriseIDE (vyžaduje restart)"
+
+msgctxt "#30014"
+msgid "Real-Time Clock Source (Restart)"
+msgstr ""

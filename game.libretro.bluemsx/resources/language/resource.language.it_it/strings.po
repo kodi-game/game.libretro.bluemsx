@@ -81,6 +81,10 @@ msgctxt "#30013"
 msgid "SunriseIDE Enable (Restart)"
 msgstr "Abilita SunriseIDE (Riavvia)"
 
+msgctxt "#30014"
+msgid "Real-Time Clock Source (Restart)"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Impostazioni"
