@@ -1,19 +1,212 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-	<category label="128">
-		<setting label="30001" type="select" id="bluemsx_msxtype" values="Auto|MSX|MSXturboR|MSX2|MSX2+|SEGA - SG-1000|SEGA - SC-3000|SEGA - SF-7000|SVI - Spectravideo SVI-318|SVI - Spectravideo SVI-328|SVI - Spectravideo SVI-328 MK2|ColecoVision|Coleco (Spectravideo SVI-603)" default="Auto"/>
-		<setting label="30014" type="select" id="bluemsx_rtc_source" values="host clock|fixed epoch" default="host clock"/>
-		<setting label="30002" type="select" id="bluemsx_overscan" values="disabled|enabled|MSX2" default="disabled"/>
-		<setting label="30003" type="select" id="bluemsx_vdp_synctype" values="Auto|50Hz|60Hz" default="Auto"/>
-		<setting label="30004" type="select" id="bluemsx_nospritelimits" values="OFF|ON" default="OFF"/>
-		<setting label="30005" type="select" id="bluemsx_ym2413_enable" values="enabled|disabled" default="enabled"/>
-		<setting label="30006" type="select" id="bluemsx_cartmapper" values="Auto|Normal|mirrored|basic|0x4000|0xC000|ascii8|ascii8sram|ascii16|ascii16sram|ascii16nf|konami4|konami4nf|konami5|konamisynth|korean80|korean90|korean126|MegaFlashRomScc|MegaFlashRomSccPlus|SegaBasic|SG1000|SG1000Castle|SG1000RamA|SG1000RamB|SC3000|SC3000MultiCart|SC3000MegaCart" default="Auto"/>
-		<setting label="30012" type="select" id="bluemsx_additional_cart" values="disabled|scc|sccexpanded|sccmirrored|sccplus|snatcher|sdsnatcher" default="disabled"/>
-		<setting label="30007" type="select" id="bluemsx_auto_rewind_cas" values="ON|OFF" default="ON"/>
-		<setting label="30008" type="select" id="bluemsx_sound_io_enable" values="disabled|enabled" default="disabled"/>
-		<setting label="30013" type="select" id="bluemsx_sunriseide_enable" values="disabled|enabled" default="disabled"/>
-		<setting label="30009" type="select" id="use_keyboard_for_coleco" values="disabled|enabled" default="disabled"/>
-		<setting label="30010" type="select" id="patch_coleco_rom" values="disabled|enabled" default="disabled"/>
-		<setting label="30011" type="select" id="hard_reset_f12" values="disabled|enabled" default="disabled"/>
-	</category>
+<settings version="1">
+	<section id="game.libretro.bluemsx">
+		<category id="system" label="30015">
+			<group id="1">
+				<setting id="bluemsx_msxtype" type="string" label="30001" help="30016">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option>Auto</option>
+							<option>MSX</option>
+							<option>MSXturboR</option>
+							<option>MSX2</option>
+							<option>MSX2+</option>
+							<option>SEGA - SG-1000</option>
+							<option>SEGA - SC-3000</option>
+							<option>SEGA - SF-7000</option>
+							<option>SVI - Spectravideo SVI-318</option>
+							<option>SVI - Spectravideo SVI-328</option>
+							<option>SVI - Spectravideo SVI-328 MK2</option>
+							<option>ColecoVision</option>
+							<option>Coleco (Spectravideo SVI-603)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bluemsx_auto_rewind_cas" type="string" label="30007">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option>ON</option>
+							<option>OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bluemsx_rtc_source" type="string" label="30014" help="30017">
+					<level>0</level>
+					<default>host clock</default>
+					<constraints>
+						<options>
+							<option label="30018">host clock</option>
+							<option label="30019">fixed epoch</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30020">
+			<group id="1">
+				<setting id="bluemsx_overscan" type="string" label="30002" help="30021">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>disabled</option>
+							<option>enabled</option>
+							<option>MSX2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bluemsx_vdp_synctype" type="string" label="30003" help="30022">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option>Auto</option>
+							<option>50Hz</option>
+							<option>60Hz</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bluemsx_nospritelimits" type="string" label="30004" help="30023">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option>OFF</option>
+							<option>ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30024">
+			<group id="1">
+				<setting id="bluemsx_ym2413_enable" type="string" label="30005" help="30025">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bluemsx_additional_cart" type="string" label="30012" help="30026">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>disabled</option>
+							<option>scc</option>
+							<option>sccexpanded</option>
+							<option>sccmirrored</option>
+							<option>sccplus</option>
+							<option>snatcher</option>
+							<option>sdsnatcher</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bluemsx_sound_io_enable" type="string" label="30008" help="30027">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30028">
+			<group id="1">
+				<setting id="use_keyboard_for_coleco" type="string" label="30009" help="30029">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="hard_reset_f12" type="string" label="30011" help="30030">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="advanced" label="30031">
+			<group id="1">
+				<setting id="bluemsx_cartmapper" type="string" label="30006" help="30032">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option>Auto</option>
+							<option>Normal</option>
+							<option>mirrored</option>
+							<option>basic</option>
+							<option>0x4000</option>
+							<option>0xC000</option>
+							<option>ascii8</option>
+							<option>ascii8sram</option>
+							<option>ascii16</option>
+							<option>ascii16sram</option>
+							<option>ascii16nf</option>
+							<option>konami4</option>
+							<option>konami4nf</option>
+							<option>konami5</option>
+							<option>konamisynth</option>
+							<option>korean80</option>
+							<option>korean90</option>
+							<option>korean126</option>
+							<option>MegaFlashRomScc</option>
+							<option>MegaFlashRomSccPlus</option>
+							<option>SegaBasic</option>
+							<option>SG1000</option>
+							<option>SG1000Castle</option>
+							<option>SG1000RamA</option>
+							<option>SG1000RamB</option>
+							<option>SC3000</option>
+							<option>SC3000MultiCart</option>
+							<option>SC3000MegaCart</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="patch_coleco_rom" type="string" label="30010" help="30033">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
 </settings>
