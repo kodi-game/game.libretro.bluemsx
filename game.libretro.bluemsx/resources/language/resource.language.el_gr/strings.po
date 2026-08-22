@@ -77,10 +77,82 @@ msgctxt "#30012"
 msgid "Additional MSX Sound Cartridge (Restart)"
 msgstr ""
 
-msgctxt "#30013"
-msgid "SunriseIDE Enable (Restart)"
-msgstr ""
-
 msgctxt "#30014"
 msgid "Real-Time Clock Source (Restart)"
+msgstr ""
+
+msgctxt "#30015"
+msgid "System"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Manually select the machine type you would like the core to start in."
+msgstr ""
+
+msgctxt "#30017"
+msgid "Initial time of the emulated real-time clock (MSX2 and later). 'Host Clock' matches your computer's clock. 'Fixed Epoch' always starts at 1985-01-01 00:00:00, making emulation bit-identical between runs for netplay, run-ahead and input replay. The clock advances from emulated time either way."
+msgstr ""
+
+msgctxt "#30018"
+msgid "Host Clock"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Fixed Epoch (deterministic)"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Forces cropping of overscanned frames"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Match the game/machine region frequency to avoid emulated speed issues."
+msgstr ""
+
+msgctxt "#30023"
+msgid "Remove the 4 sprite per line limit which can reduce or remove sprite flicker in some games."
+msgstr ""
+
+msgctxt "#30024"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Awaiting description."
+msgstr ""
+
+msgctxt "#30026"
+msgid "Additional MSX sound cartridge to insert to the first free slot."
+msgstr ""
+
+msgctxt "#30027"
+msgid "Enable the I/O sound (floppy disk access sound)."
+msgstr ""
+
+msgctxt "#30028"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Additionally, use the keyboard for the Colecovision 0-9, #, and * buttons. Player 1: 0-9, # is -, and * is =; Player 2: Keypad 0-9, # is /, and * is *. Gamepad mappings also work."
+msgstr ""
+
+msgctxt "#30030"
+msgid "Use key F12 to hard reset and restart emulation like blueMSX standalone"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "#30032"
+msgid "When a ROM game or application is in the database, the emulator uses the databases to apply the correct mapper. If the sha1 value of a dump is not yet in the databases, it uses an automatic mapper detection system, but it can fail in some cases. In this situation, you can manually select the correct mapper."
+msgstr ""
+
+msgctxt "#30033"
+msgid "Patch the NTSC Colecovision ROM for fast booting (3.3s)"
 msgstr ""
