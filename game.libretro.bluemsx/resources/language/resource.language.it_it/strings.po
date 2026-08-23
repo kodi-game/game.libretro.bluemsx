@@ -157,6 +157,194 @@ msgctxt "#30033"
 msgid "Patch the NTSC Colecovision ROM for fast booting (3.3s)"
 msgstr ""
 
+msgctxt "#30034"
+msgid "MSX"
+msgstr ""
+
+msgctxt "#30035"
+msgid "MSXturboR"
+msgstr ""
+
+msgctxt "#30036"
+msgid "MSX2"
+msgstr ""
+
+msgctxt "#30037"
+msgid "MSX2+"
+msgstr ""
+
+msgctxt "#30038"
+msgid "SEGA - SG-1000"
+msgstr ""
+
+msgctxt "#30039"
+msgid "SEGA - SC-3000"
+msgstr ""
+
+msgctxt "#30040"
+msgid "SEGA - SF-7000"
+msgstr ""
+
+msgctxt "#30041"
+msgid "SVI - Spectravideo SVI-318"
+msgstr ""
+
+msgctxt "#30042"
+msgid "SVI - Spectravideo SVI-328"
+msgstr ""
+
+msgctxt "#30043"
+msgid "SVI - Spectravideo SVI-328 MK2"
+msgstr ""
+
+msgctxt "#30044"
+msgid "ColecoVision"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Coleco (Spectravideo SVI-603)"
+msgstr ""
+
+msgctxt "#30046"
+msgid "50Hz"
+msgstr ""
+
+msgctxt "#30047"
+msgid "60Hz"
+msgstr ""
+
+msgctxt "#30048"
+msgid "scc"
+msgstr ""
+
+msgctxt "#30049"
+msgid "sccexpanded"
+msgstr ""
+
+msgctxt "#30050"
+msgid "sccmirrored"
+msgstr ""
+
+msgctxt "#30051"
+msgid "sccplus"
+msgstr ""
+
+msgctxt "#30052"
+msgid "snatcher"
+msgstr ""
+
+msgctxt "#30053"
+msgid "sdsnatcher"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Normal"
+msgstr ""
+
+msgctxt "#30055"
+msgid "mirrored"
+msgstr ""
+
+msgctxt "#30056"
+msgid "basic"
+msgstr ""
+
+msgctxt "#30057"
+msgid "0x4000"
+msgstr ""
+
+msgctxt "#30058"
+msgid "0xC000"
+msgstr ""
+
+msgctxt "#30059"
+msgid "ascii8"
+msgstr ""
+
+msgctxt "#30060"
+msgid "ascii8sram"
+msgstr ""
+
+msgctxt "#30061"
+msgid "ascii16"
+msgstr ""
+
+msgctxt "#30062"
+msgid "ascii16sram"
+msgstr ""
+
+msgctxt "#30063"
+msgid "ascii16nf"
+msgstr ""
+
+msgctxt "#30064"
+msgid "konami4"
+msgstr ""
+
+msgctxt "#30065"
+msgid "konami4nf"
+msgstr ""
+
+msgctxt "#30066"
+msgid "konami5"
+msgstr ""
+
+msgctxt "#30067"
+msgid "konamisynth"
+msgstr ""
+
+msgctxt "#30068"
+msgid "korean80"
+msgstr ""
+
+msgctxt "#30069"
+msgid "korean90"
+msgstr ""
+
+msgctxt "#30070"
+msgid "korean126"
+msgstr ""
+
+msgctxt "#30071"
+msgid "MegaFlashRomScc"
+msgstr ""
+
+msgctxt "#30072"
+msgid "MegaFlashRomSccPlus"
+msgstr ""
+
+msgctxt "#30073"
+msgid "SegaBasic"
+msgstr ""
+
+msgctxt "#30074"
+msgid "SG1000"
+msgstr ""
+
+msgctxt "#30075"
+msgid "SG1000Castle"
+msgstr ""
+
+msgctxt "#30076"
+msgid "SG1000RamA"
+msgstr ""
+
+msgctxt "#30077"
+msgid "SG1000RamB"
+msgstr ""
+
+msgctxt "#30078"
+msgid "SC3000"
+msgstr ""
+
+msgctxt "#30079"
+msgid "SC3000MultiCart"
+msgstr ""
+
+msgctxt "#30080"
+msgid "SC3000MegaCart"
+msgstr ""
+
 #~ msgctxt "#30013"
 #~ msgid "SunriseIDE Enable (Restart)"
 #~ msgstr "Abilita SunriseIDE (richiede riavvio)"
