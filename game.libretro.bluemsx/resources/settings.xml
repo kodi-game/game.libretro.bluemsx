@@ -8,19 +8,19 @@
 					<default>Auto</default>
 					<constraints>
 						<options>
-							<option>Auto</option>
-							<option>MSX</option>
-							<option>MSXturboR</option>
-							<option>MSX2</option>
-							<option>MSX2+</option>
-							<option>SEGA - SG-1000</option>
-							<option>SEGA - SC-3000</option>
-							<option>SEGA - SF-7000</option>
-							<option>SVI - Spectravideo SVI-318</option>
-							<option>SVI - Spectravideo SVI-328</option>
-							<option>SVI - Spectravideo SVI-328 MK2</option>
-							<option>ColecoVision</option>
-							<option>Coleco (Spectravideo SVI-603)</option>
+							<option label="16316">Auto</option>
+							<option label="30034">MSX</option>
+							<option label="30035">MSXturboR</option>
+							<option label="30036">MSX2</option>
+							<option label="30037">MSX2+</option>
+							<option label="30038">SEGA - SG-1000</option>
+							<option label="30039">SEGA - SC-3000</option>
+							<option label="30040">SEGA - SF-7000</option>
+							<option label="30041">SVI - Spectravideo SVI-318</option>
+							<option label="30042">SVI - Spectravideo SVI-328</option>
+							<option label="30043">SVI - Spectravideo SVI-328 MK2</option>
+							<option label="30044">ColecoVision</option>
+							<option label="30045">Coleco (Spectravideo SVI-603)</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -30,8 +30,8 @@
 					<default>ON</default>
 					<constraints>
 						<options>
-							<option>ON</option>
-							<option>OFF</option>
+							<option label="16041">ON</option>
+							<option label="351">OFF</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -56,9 +56,9 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
-							<option>enabled</option>
-							<option>MSX2</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+							<option label="30036">MSX2</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -68,9 +68,9 @@
 					<default>Auto</default>
 					<constraints>
 						<options>
-							<option>Auto</option>
-							<option>50Hz</option>
-							<option>60Hz</option>
+							<option label="16316">Auto</option>
+							<option label="30046">50Hz</option>
+							<option label="30047">60Hz</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -80,8 +80,8 @@
 					<default>OFF</default>
 					<constraints>
 						<options>
-							<option>OFF</option>
-							<option>ON</option>
+							<option label="351">OFF</option>
+							<option label="16041">ON</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -95,8 +95,8 @@
 					<default>enabled</default>
 					<constraints>
 						<options>
-							<option>enabled</option>
-							<option>disabled</option>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -106,13 +106,13 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
-							<option>scc</option>
-							<option>sccexpanded</option>
-							<option>sccmirrored</option>
-							<option>sccplus</option>
-							<option>snatcher</option>
-							<option>sdsnatcher</option>
+							<option label="13106">disabled</option>
+							<option label="30048">scc</option>
+							<option label="30049">sccexpanded</option>
+							<option label="30050">sccmirrored</option>
+							<option label="30051">sccplus</option>
+							<option label="30052">snatcher</option>
+							<option label="30053">sdsnatcher</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -122,8 +122,8 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>enabled</option>
-							<option>disabled</option>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -137,8 +137,8 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>enabled</option>
-							<option>disabled</option>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -148,8 +148,8 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>enabled</option>
-							<option>disabled</option>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -163,34 +163,34 @@
 					<default>Auto</default>
 					<constraints>
 						<options>
-							<option>Auto</option>
-							<option>Normal</option>
-							<option>mirrored</option>
-							<option>basic</option>
-							<option>0x4000</option>
-							<option>0xC000</option>
-							<option>ascii8</option>
-							<option>ascii8sram</option>
-							<option>ascii16</option>
-							<option>ascii16sram</option>
-							<option>ascii16nf</option>
-							<option>konami4</option>
-							<option>konami4nf</option>
-							<option>konami5</option>
-							<option>konamisynth</option>
-							<option>korean80</option>
-							<option>korean90</option>
-							<option>korean126</option>
-							<option>MegaFlashRomScc</option>
-							<option>MegaFlashRomSccPlus</option>
-							<option>SegaBasic</option>
-							<option>SG1000</option>
-							<option>SG1000Castle</option>
-							<option>SG1000RamA</option>
-							<option>SG1000RamB</option>
-							<option>SC3000</option>
-							<option>SC3000MultiCart</option>
-							<option>SC3000MegaCart</option>
+							<option label="16316">Auto</option>
+							<option label="30054">Normal</option>
+							<option label="30055">mirrored</option>
+							<option label="30056">basic</option>
+							<option label="30057">0x4000</option>
+							<option label="30058">0xC000</option>
+							<option label="30059">ascii8</option>
+							<option label="30060">ascii8sram</option>
+							<option label="30061">ascii16</option>
+							<option label="30062">ascii16sram</option>
+							<option label="30063">ascii16nf</option>
+							<option label="30064">konami4</option>
+							<option label="30065">konami4nf</option>
+							<option label="30066">konami5</option>
+							<option label="30067">konamisynth</option>
+							<option label="30068">korean80</option>
+							<option label="30069">korean90</option>
+							<option label="30070">korean126</option>
+							<option label="30071">MegaFlashRomScc</option>
+							<option label="30072">MegaFlashRomSccPlus</option>
+							<option label="30073">SegaBasic</option>
+							<option label="30074">SG1000</option>
+							<option label="30075">SG1000Castle</option>
+							<option label="30076">SG1000RamA</option>
+							<option label="30077">SG1000RamB</option>
+							<option label="30078">SC3000</option>
+							<option label="30079">SC3000MultiCart</option>
+							<option label="30080">SC3000MegaCart</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -200,8 +200,8 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>enabled</option>
-							<option>disabled</option>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
