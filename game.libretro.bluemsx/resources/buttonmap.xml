@@ -23,12 +23,8 @@
     <feature name="keypad6" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
     <feature name="keypad7" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
     <feature name="keypad8" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
-    <!-- Player 1: RETROK_2 -->
-    <!-- Player 2: RETROK_4 -->
-    <feature name="keypad9" mapto=""/>
-    <!-- Player 1: RETROK_1 -->
-    <!-- Player 2: RETROK_3 -->
-    <feature name="keypad0" mapto=""/>
+    <!-- keypad9 and keypad0 are keyboard keys in the core, which a joypad can't map to:
+         RETROK_2 and RETROK_1 for player 1, RETROK_4 and RETROK_3 for player 2 -->
     <feature name="star" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
     <feature name="pound" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
   </controller>
@@ -85,7 +81,6 @@
     <feature name="j" mapto="RETROK_j"/>
     <feature name="k" mapto="RETROK_k"/>
     <feature name="l" mapto="RETROK_l"/>
-    <feature name="ntilde" mapto=""/>
     <feature name="quote" mapto="RETROK_QUOTE"/>
     <feature name="semicolon" mapto="RETROK_SEMICOLON"/>
     <!-- Row 4 -->
@@ -101,13 +96,11 @@
     <feature name="period" mapto="RETROK_PERIOD"/>
     <feature name="divide" mapto="RETROK_SLASH"/>
     <feature name="rightshift" mapto="RETROK_RSHIFT"/>
-    <feature name="backtick" mapto=""/>
     <!-- Row 5 -->
     <feature name="capslock" mapto="RETROK_CAPSLOCK"/>
-    <feature name="code" mapto=""/>
     <feature name="space" mapto="RETROK_SPACE"/>
     <feature name="graph" mapto="RETROK_LALT"/>
-    <feature name="select" mapto=""/>
+    <feature name="select" mapto="RETROK_PAGEUP"/>
     <!-- Arrows -->
     <feature name="up" mapto="RETROK_UP"/>
     <feature name="right" mapto="RETROK_RIGHT"/>
