@@ -77,10 +77,6 @@ msgctxt "#30012"
 msgid "Additional MSX Sound Cartridge (Restart)"
 msgstr ""
 
-msgctxt "#30013"
-msgid "SunriseIDE Enable (Restart)"
-msgstr ""
-
 msgctxt "#30014"
 msgid "Real-Time Clock Source (Restart)"
 msgstr ""
@@ -348,6 +344,10 @@ msgstr ""
 msgctxt "#30080"
 msgid "SC3000MegaCart"
 msgstr ""
+
+#~ msgctxt "#30013"
+#~ msgid "SunriseIDE Enable (Restart)"
+#~ msgstr ""
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
