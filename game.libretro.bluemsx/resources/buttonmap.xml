@@ -9,8 +9,8 @@
     <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
   </controller>
   <controller id="game.controller.colecovision" type="RETRO_DEVICE_JOYPAD">
-    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
-    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+    <feature name="button1" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+    <feature name="button2" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
     <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
     <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
     <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
